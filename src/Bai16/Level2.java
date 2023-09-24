@@ -6,7 +6,7 @@ public class Level2 {
         appearsOnlyOnce(arrNumbers);
     }
     public static void appearsOnlyOnce(int[] arr){
-        int count =0;
+        int count;
         for (int i = 0; i < arr.length; i++) {
             count=0;
             for (int j = 0; j < arr.length; j++) {
